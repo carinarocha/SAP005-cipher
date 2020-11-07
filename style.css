@@ -1,0 +1,178 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:poppins,sans-serif;
+ 
+}
+body{
+    background-color: #fff;
+    opacity: 2px;
+}
+/*Envelopamento. Ajustes no perimetro da imagem*/
+.container-fluid video {
+    width: 100%;
+    height: 100vh; 
+     /*Função. valores são parametros dentro do RGB para definir cor*/
+}
+/*ajustes direto na imagem*/
+.video-wrapper video{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover; /*comportamento do objeto dentro da pagina. tela inteira*/
+    opacity: 0.2;
+}
+header{
+   display:inline-block;
+}
+.opening h1{
+    font-family: poppins,sans-serif;
+    font-weight: lighter;
+    font-size: 80px;
+    color: #ffff;
+    text-align:center;
+    text-shadow: 1px 1px 1px #474347, 0px 0px 15px #ffffff, 0px 0px 2px #313031;
+    position: relative;
+    bottom: 420px;
+    left: 355px;
+}
+.opening p{
+    font-family: poppins,sans-serif;
+    font-weight: lighter;
+    font-size: 10px;
+    color: #ffffff;
+    text-align: end;
+    text-shadow: 1px 1px 1px #474347;
+    position: relative;
+    bottom:430px;
+    left:330px;
+}
+.text-content h2{
+    font-family: poppins,sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    color:#fff;
+    text-align: left;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #474347;
+    position: relative;
+    bottom:130px;
+    padding: 8px;
+    border-width: thin;
+    border-style:double;
+    border-color:#fff;
+    border-radius: 8px;
+    box-shadow:  1px 1px 1px #474347, 0px 0px 9px #ffffff, 0px 0px 2px #313031;
+}
+.p1{
+    color: #fff;
+    font-family: poppins, serif;
+    font-size: 16px;
+    text-align: left;
+    position: relative;
+    top:100px;
+    left:400px;
+    transform: translate(-50%,-50%);
+    width: 50%; 
+    padding:80px;
+    shape-outside: circle();
+    background-color: #000;
+    border-radius: 8px;
+    border-style: double;
+    border-width:thin ;
+}
+.instructions h3{
+    font-family: poppins,sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    color:#fff;
+    text-align: right;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #474347;
+    position: relative;
+    bottom:80px;
+    padding: 8px;
+    border-width: thin;
+    border-style:double;
+    border-color:#fff;
+    border-radius: 8px;
+    box-shadow:  1px 1px 1px #474347, 0px 0px 9px #ffffff, 0px 0px 2px #313031;
+}
+.step-by-step{
+    color: #fff;
+    font-size: 16px;
+    text-align: left;
+    position: relative;
+    top:88px;
+    left:950px;
+    transform: translate(-50%,-50%);
+    width: 50%; 
+    padding:80px;
+    shape-outside: circle();
+    background-color: #000;
+    border-radius: 8px;
+    border-style: double;
+    border-width:thin ;
+}
+
+a:link{/*tirando sublinhado*/
+    text-decoration: none;
+}
+a:visited{ /* cor do <target=_blank>* quando sem intereção do cursor*/
+    color:#8f999b;
+    }
+    a:hover{/*trocando a cor quando com intereção do cursor*/
+    text-decoration:none;
+    color:#CD919E;
+    }
+    a:active{
+    text-decoration:none;
+    color:#8B3A62;
+    }   
+
+.button{
+  position: relative;
+  display:flex;
+  top:20px;
+  left: 50px;
+  justify-content: space-around;
+}
+#btnOffSet{
+  padding: 30px;
+  color: #ffffff;
+  background-color: black;
+  margin: 0px;
+  font-size: 10px;
+  font-family: poppins,sans-serif;
+  border-style: double;
+  border-color: #ffffff;
+  border-radius: 20px;
+  box-shadow:1px 1px 1px #474347, 0 0 20px #ffffff, 0 0 2px #313031;
+  text-align: center;
+}
+#btnText{
+    padding: 30px;
+    color: #ffffff;
+    background-color: black;
+    margin: 0px;
+    font-size: 10px;
+    font-family: poppins,serif ;
+    border-style: double;
+    border-color: #ffffff;
+    border-radius: 20px;
+    box-shadow:1px 1px 1px #474347, 0 0 20px #ffffff, 0 0 2px #313031;
+    text-align: center;
+}
+#btnSubmit{
+    padding: 30px;
+    color: #ffffff;
+    background-color: black;
+    margin: 0px;
+    font-size: 10px;
+    font-family: poppins,serif ;
+    border-style: double;
+    border-color: #ffffff;
+    border-radius: 20px;
+    box-shadow:1px 1px 1px #474347, 0 0 20px #ffffff, 0 0 2px #313031;
+    text-align: center;
+}
